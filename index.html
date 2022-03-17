@@ -1,42 +1,53 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- adicionar css-->
+    <link rel="stylesheet" href="assets/css/estilo.css">
     <title>Meu Perfil</title>
 </head>
+
 <body>
-    <ul>
+    <ul id="menu">
         <li>
             <a href="index.html"> Home</a>
         </li>
         <li>
-           <a href="contato.html"> Contatos</a>
+            <a href="contato.html"> Contatos</a>
         </li>
     </ul>
 
-    <h1>Sobre o Leonardo</h1>
+    <h1 class="center">Sobre o Leonardo</h1>
+    <div class="container">
+        <div class="br-50 wh-300 p-30">
+            <img class="br-50 wh" src="./assets/img/IMG_7901.JPG">
+        </div>
+        <div class="p-30">
+            <p class="justify">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem minima est quod deserunt
+                voluptatum accusantium
+                minus a. Nulla, tenetur quam molestias vitae mollitia animi incidunt laborum corrupti omnis saepe
+                repudiandae.
+            </p>
+            <p class="justify">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi, laborum, consectetur soluta laboriosam
+                quam
+                accusamus vitae ad cupiditate nostrum non atque. Nobis molestias commodi consectetur, animi perspiciatis
+                nam
+                possimus? Architecto?
+            </p>
+        </div>
+    </div>
 
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem minima est quod deserunt voluptatum accusantium minus a. Nulla, tenetur quam molestias vitae mollitia animi incidunt laborum corrupti omnis saepe repudiandae.
+    <h2 align="center">Meu Video predileto: </h2>
 
-    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi, laborum, consectetur soluta laboriosam quam accusamus vitae ad cupiditate nostrum non atque. Nobis molestias commodi consectetur, animi perspiciatis nam possimus? Architecto?   
-    </p>
-
-    <img src="./assets/img/IMG_7901.JPG">  
-
-    <h2>Meu Video predileto: </h2>
-
-    <iframe 
-     width="560"
-     height="315" 
-     src="https://www.youtube.com/embed/rZOZ2daGVnM" 
-     title="YouTube video player"
-     frameborder="0" 
-     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
-     picture-in-picture" allowfullscreen>
-    </iframe>
-    
+    <div class="container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/rZOZ2daGVnM" title="YouTube video player"
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+            picture-in-picture" allowfullscreen>
+        </iframe>
+    </div>
 </body>
+
 </html>
