@@ -1,0 +1,10 @@
+h1{
+    color: blueviolet; 
+    font-size: 43px; 
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+.input01{
+    color: blue;
+    display: flex;
+    flex-direction: table-column;
+}
